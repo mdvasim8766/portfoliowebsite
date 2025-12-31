@@ -270,7 +270,7 @@ border: 2px solid #efca79;
 	height: 60px;
 }
 .bar .progress-line.xd span{
-  width: 95%;
+  width: 50%;
 }
 #xd{
 	height: 60px;
@@ -1001,5 +1001,6 @@ border: 2px solid #efca79;
 
 
 }
+
 
 
