@@ -282,7 +282,7 @@ border: 2px solid #efca79;
 	height: 60px;
 }
 .bar .progress-line.canva span{
-  width: 90%;
+  width: 50%;
 }
 
 
@@ -1001,4 +1001,5 @@ border: 2px solid #efca79;
 
 
 }
+
 
