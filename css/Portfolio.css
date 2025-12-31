@@ -276,7 +276,7 @@ border: 2px solid #efca79;
 	height: 60px;
 }
 .bar .progress-line.xd span{
-  width: 90%;
+  width: 50%;
 }
 #canva{
 	height: 60px;
@@ -1001,6 +1001,7 @@ border: 2px solid #efca79;
 
 
 }
+
 
 
 
