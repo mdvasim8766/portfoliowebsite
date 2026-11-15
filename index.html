@@ -1,610 +1,212 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-	<meta name="viewport"content="width=device-width, initial-scale=1.0">
-	<title>Vasim portfolio...</title>
-	<link rel="icon"href="img/icon.png">
-    <link rel="stylesheet" type="text/css" href="css/Portfolio.css">
-    <meta http-equiv="refresh"content="">
-	
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.2/js/bootstrap.min.js" integrity="sha512-HSNvqjhsAxRPvbSBEdXWlkR9uYmJtUvXEyfAvUzlA0uS5SyFZMZdczgz8oPWTz2NUEBaXkIYL4kdrBJkP66jYA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.2/css/bootstrap.min.css" integrity="sha512-SCpMC7NhtrwHpzwKlE1l6ks0rS+GbMJJpoQw/A742VaxdGcQKqVD8F/y/m9WLOfIPppy7mWIs/kS0bKgSI0Bfw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vasim | Frontend & WordPress Developer</title>
+<link rel="icon" href="img/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;800&family=Manrope:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/Portfolio.css">
+</head>
 <body>
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-xl-12 col-l-12 col-md-12 s-6"id="mainimgbox"></div>
-	</div>
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top col-xl-12 col-l-12 col-md-12">
-  <div class="container">
-    <a class="navbar-brand" href="#textobox">
-    	<img src="img/logo.png"height="36"width="49">
-    	<p>asim</p>
-    </a>
-     	<button type="button"class="navbar-toggler"
-	 	data-toggle="collapse"data-target="#ab">
-	 		<span class="navbar-toggler-icon"></span>
-	 	</button>
-    <div class="collapse navbar-collapse" id="ab">
-      <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#textobox"id="h">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#aboutfile"id="a">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#servicefile"id="s">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#projects-section"id="p">Porjects</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link text-white" href="#contactfile"id="c">Contact</a>
-        </li>
-      </ul>
-      
+<!-- ===== NAVIGATION ===== -->
+<nav class="nav" id="nav"><div class="wrap">
+  <a class="brand" href="#home"><img src="img/logo.png" alt="">asim</a>
+  <button class="burger" id="burger" aria-label="Menu"><i class="fa fa-bars"></i></button>
+  <ul class="menu" id="menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#projects-section">Projects</a></li>
+    <li><a class="btn btn-p sm" href="#contact">Contact</a></li>
+  </ul>
+</div></nav>
+
+<!-- ===== HERO: edit headline, text and the code card ===== -->
+<header class="hero" id="home"><div class="wrap hero-grid">
+  <div>
+    <span class="hello">Hello! I'm Vasim</span>
+    <h1>Creative Frontend &amp; WordPress Developer</h1>
+    <p>I have 03 years of experience in web development. I want to work in a professional organization where I can utilize my knowledge to the optimum level and where I have excellent opportunities for growth.</p>
+    <div class="cta">
+      <a class="btn btn-p" href="tel:+918766335383"><i class="fa fa-phone"></i> Call Now</a>
+      <a class="btn btn-o" href="img/Vasim.pdf" download><i class="fa fa-download"></i> Download CV</a>
+    </div>
+    <div class="social">
+      <a href="https://www.instagram.com/mdvasim8766?igsh=N3JpdTM1NGhnbDRs" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.facebook.com/share/18Fd155Fum/" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://x.com/mdvasimhyt2019" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+      <a href="https://www.linkedin.com/in/md-vasim-948194274" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
     </div>
   </div>
-</nav>
-<script>
-	const navEl = document.querySelector('.navbar');
+</div></header>
 
-	window.addEventListener('scroll', () => {
-		if(window.scrollY >= 55) {
-           navEl.classList.add('navbar-scrolled');
-		}
-		else if(window.scrollY < 55){
-			navEl.classList.remove('navbar-scrolled');
-		}
-
-	});
-</script>
-
-
-<div class="container">
-	<div class="row">
-		<div class="col-xl-12 col-l-12 col-md-12 s-12"id="textobox">
-			<div class="row">
-				<div class="col-xl-12 col-l-12 col-md-12 sm-6 mt-4"id="namebox">
-					<h6  style="font-size: 24px;color: white;margin: 0;padding: 0;text-align: center;">Hello! I m Vasim</h6><br><h3 class="text-center"><span id="web">Creative <span style="color: #f9c650;">Web & Graphic </span>Designer</span></h3>
-				</div>
-				<div class="row">
-					<div class="col-xl-12 col-l-12 col-md-12 col-s-12 d-none d-sm-block d-sm-none d-md-block"id="viewbox">
-					  <p>I have 03 years of experience in web & graphic designer. I want to work in a professional organization where I can utilize my knowledge<br>to the optimum level and where I have excellent opportunities for growth.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xl-12 col-l-12 col-md-12 s-12 text-center"id="iconbox">
-						<a href="https://www.instagram.com/mdvasim8766?igsh=N3JpdTM1NGhnbDRs"><i class="fa fa-instagram fa-1x mt-4 text-white"></i></a>
-						<a href="https://www.facebook.com/share/18Fd155Fum/"><i class="fa fa-facebook fa-1x mt-4 text-white"></i></a>
-						<a href="https://x.com/mdvasimhyt2019"><i class="fa fa-twitter fa-1x mt-4 text-white"></i></a>
-						<a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQE82Faa9M5FsQAAAZfZL8zwKZctYFwHgcFLpzIOsNQS8XYh8R5nkNeZabhjqAkSrqpWMxbnCyx3bv97lH26P7Z6o_JOGDwGY3DkSkhxqn4cUjmrdqRhCYt2xGvarC9_4bx8doM=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmd-vasim-948194274%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app"><i class="fa fa-linkedin fa-1x mt-4 text-white"></i></a>
-					</div>
-					<div class="row">
-						<div class="col-xl-12 col-l-12 col-md-12 s-12 text-center"id="btnbox">
-							<button class="btn btn-outline-light text-center"id="btn"><a href="tel:+91 8766335383"download>Contact Us &nbsp;<i class="fa fa-phone fa-1x"></i></a></button>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-		</div>
-		
-	</div>
+<!-- ===== STATS: change the numbers ===== -->
+<div class="wrap stats">
+  <div><b>3+</b><span>Years experience</span></div>
+  <div><b>50+</b><span>Website projects</span></div>
+  <div><b>30=</b><span>Graphic designs</span></div>
+  <div><b>6</b><span>Services offered</span></div>
 </div>
-<div class="row">
-	<div class=" col-xl-12 col-l-12 col-md-12"id="aboutfile">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 s-12"id="abox">
-					<h2>ABOUT US</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-5 s-12"id="abouttextbox">
-				
-					<div class="col-md-12 s-6"id="iam">
-						<p>Md Vasim</p>
-						<p style="font-size: 20px;">I have 03 years of experience in web & graphic designer .I want to work in a professional organization where I can utilize my knowledge to the optimum level and where I have excellent opportunities for growth.
-							 I am constantly staying up-to-date with the latest trends and techniques in design to provide even better design.I want to work in a professional organization where I can utilize my knowledge
-to the optimum level and where I have excellent opportunities for growth.</p>
-					</div>
-					
-				</div>
-			    <div class="col-md-1"></div>
-				<div class="col-xl-5 col-l-5 col-md-5 s-12 "id="aboutimgbox">
-					<img src="img/img.png"height="410"width="360"class="img-fluid">
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="row" class="skillfile">
-	<div class="col-md-12 s-12" >
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12"id="skibox">
-					<h2>SKILLS</h2>
-				</div>
-			</div>
 
-         <div class="container">
-		 <div class="row">
-			<div class="col-xl-6 col-l-6 col-md-6 s-12"id="progressbox1">
-			<div class="skill-bars">
-				<div class="row">
-				  <div class=" col-xl-12 col-l-12 col-md-12 s-6"id="html">
-                   <div class="bar">
-                   <div class="info">
-                       <span id="t">HTML (90%)</span>
-                   </div>
-                  <div class="progress-line html">
-                    <span></span>
-                  </div>
-               </div>
-            </div>
-          </div>
-                 
-          <div class="row">
-             <div class="col-xl-12 col-l-12 col-md-12 s-12"id="css">
-                 <div class="bar">
-                     <div class="info">
-                        <span id="t">CSS (90%)</span>
-                        </div>
-                      <div class="progress-line css">
-                        <span></span>
-                     </div>
-                   </div>
-               </div>
-            </div>
-
-            <div class="row">
-             <div class="col-xl-12 col-l-12 col-md-12 s-12"id="java">
-                 <div class="bar">
-                     <div class="info">
-                        <span id="t">JAVASCRIPT (60%)</span>
-                        </div>
-                      <div class="progress-line java">
-                        <span></span>
-                   </div>
-                 </div>
-               </div>
-            </div>
-
-			<div class="row">
-             <div class="col-xl-12 col-l-12 col-md-12 s-12"id="word">
-                 <div class="bar">
-                     <div class="info">
-                        <span id="t">WORDPRESS (95%)</span>
-                        </div>
-                      <div class="progress-line word">
-                        <span></span>
-                   </div>
-                 </div>
-               </div>
-            </div>
-           </div>
-         </div>
-			<div class=" col-xl-6 col-l-6 col-md-6 s-12"id="progressbox2">
-          <div class="skill-bars">
-            <div class="row">
-             <div class=" col-xl-12 col-l-12 col-md-12 s-12"id="query">
-                 <div class="bar">
-                     <div class="info">
-                        <span id="t">JQUERY (60%)</span>
-                        </div>
-                      <div class="progress-line query">
-                        <span></span>
-                   </div>
-                 </div>
-               </div>
-            </div>
-             <div class="row">
-             <div class="col-xl-12 col-l-12 col-md-12 s-12"id="boots">
-                 <div class="bar">
-                     <div class="info">
-                        <span id="t">BOOTSTRAP (90%)</span>
-                        </div>
-                      <div class="progress-line boots">
-                        <span></span>
-                   </div>
-                 </div>
-               </div>
-            </div>
-
-            <div class="row">
-             <div class="col-xl-12 col-l-12 col-md-12 s-12"id="xd">
-                 <div class="bar">
-                     <div class="info">
-                        <span id="t">FIGMA (50%)</span>
-                        </div>
-                      <div class="progress-line xd">
-                        <span></span>
-                   </div>
-                 </div>
-               </div>
-            </div>
-
-			<div class="row">
-             <div class="col-xl-12 col-l-12 col-md-12 s-12"id="canva">
-                 <div class="bar">
-                     <div class="info">
-                        <span id="t">CANVA (90%)</span>
-                        </div>
-                      <div class="progress-line canva">
-                        <span></span>
-						
-                   </div>
-                 </div>
-               </div>
-            </div>
-           </div>				 	
-				</div>
-              </div>
-			</div>
-        </div>
-		</div>
-	</div>
-<div class="row">
-		<div class="col-xl-12 col-l-12 col-md-12 s-12 sm-12"id="servicefile">
-			<div class="row">
-				<div class=" col-xl-12 col-l-12 col-md-12 s-12 sm-12"id="servicetextbox">
-					<h2> EXPERTISE</h2>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row justify-content-center"id="servicebox1">
-					<div class="col-md-3 col-sm-10 col-s-6 mt-4 mx-3 rounded flex-shrink-1"id="webbox">
-						<div class="row justify-content-center d-flex">
-							<div class="col-md-3 col-sm-3 mt-5 rounded"id="weblogobox">
-                                <i class="fa fa-code fa-3x mt-3 mx-1"></i>
-							</div>
-						</div>
-						<div class="row justify-content-center">
-							<div class="col-md-12 col-s-12"id="webnamebox">
-								<h4 class="text-center mt-2">Web Design</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-12"id="webtextbox">
-								<p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience of website development.</p>
-							</div>
-						</div>
-					</div>
-
-
-
-					<div class="col-md-3 col-sm-10 col-s-6 mt-4 mx-3 rounded flex-shrink-1"id="uiuxbox">
-						<div class="row justify-content-center">
-							<div class="col-md-3 col-s-3 col-s-3 mt-5 rounded-3"id="uiuxlogobox">
-								<i class="fa fa-file fa-3x mt-3 mx-2"></i>
-							</div>
-						</div>
-						<div class="row justify-content-center">
-							<div class="col-md-12 col-sm-12"id="uiuxnamebox">
-								<h4 class="text-center mt-2">UI UX Design</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-12"id="uiuxtextbox">
-								<p>UI is a place where interactions between humans and machines occur. UX is the experience that a person has they interact with a product.</p>
-							</div>
-						</div>
-					</div>
-
-				<div class="col-md-3 col-sm-10 col-s-6 mt-4 mx-3 rounded flex-shrink-1"id="resbox">
-						<div class="row justify-content-center">
-							<div class="col-md-3 col-sm-2 mt-5 rounded-3"id="reslogobox">
-								<i class="fa fa-tablet fa-4x mt-2 mx-2"></i>
-							</div>
-						</div>
-						<div class="row justify-content-center">
-							<div class="col-md-12 col-sm-12"id="resnamebox">
-								<h4 class="text-center mt-2">Responsive Design</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-12"id="restextbox">
-								<p>Responsive web design is creating web pages that look good on all devices.A responsive web design will adjust for different screen sizes and viewports.</p>
-							</div>
-						</div>
-					</div>
-
-			
-					<div class="col-md-3 col-sm-10 col-s-6 mt-4 mx-3 rounded flex-shrink-1"id="grapbox">
-						<div class="row justify-content-center">
-							<div class="col-md-3 col-sm-2 mt-5 rounded-3"id="graplogobox">
-								<i class="fa fa-globe fa-4x mt-2"></i>
-							</div>
-						</div>
-						<div class="row justify-content-center">
-							<div class="col-md-12 col-sm-12"id="grapnamebox">
-								<h4 class="text-center mt-2">Graphics Design</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-12"id="graptextbox">
-								<p>Graphic design is disciplinary branch of design and of the fine arts.They focus on the logic of display elements in interactive designs to optimize the user experience.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-10 col-s-6 mt-4 mx-3 rounded flex-shrink-1"id="appbox">
-						<div class="row justify-content-center">
-							<div class="col-md-3 col-sm-2 mt-5 rounded-3"id="applogobox">
-								<i class="fa fa-mobile fa-5x mx-2"></i>
-							</div>
-						</div>
-						<div class="row justify-content-center">
-							<div class="col-md-12 col-sm-12"id="appnamebox">
-								<h4 class="text-center mt-2">App Design</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-12"id="apptextbox">
-								<p>App design combines the user interface and user experience.While UI focus itself to the overall style of the app general look and feel.UX focus on the functional and usability.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-10 col-s-6 mt-4 mx-3 rounded flex-shrink-1"id="logobox">
-						<div class="row justify-content-center">
-							<div class="col-md-3 col-sm-2 mt-5 rounded-3"id="logologobox">
-								<i class="fa fa-magnet fa-3x mt-3 mx-2"></i>
-							</div>
-						</div>
-						<div class="row justify-content-center">
-							<div class="col-md-12 col-sm-12"id="logonamebox">
-								<h4 class="text-center mt-2">Logo Design</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-sm-12"id="logotextbox">
-								<p>A logo is a symbol or design used to identify a company or organization. A logo generally involves symbols , stylized text or both.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-		<section class="ftco-section ftco-project" id="projects-section">
-		<div class="container-fluid px-md-4">
-			<div class="row justify-content-center">
-				<div class="col-md-12 heading-section text-center ftco-animate">
-			
-					<h2 class="mb-4 mt-5">Website Projects</h2>
-				
-				</div>
-			</div>
-			<div class="container">
-			<div class="row">
-	        	<div class="col-md-4 col-md-offset-4 content">
-					<div class="screen">
-						<a href="https://wepromote.in/"target="_blank"><img src="img/web1.png"></a>
-					</div>
-
-	        	</div>
-				<div class="col-md-4 col-md-offset-4 content">
-					<div class="screen">
-						<a href="https://dial4tour.com/"target="_blank"><img src="img/web2.png"></a>
-					</div>
-
-	        	</div>
-
-				<div class="col-md-4 col-md-offset-4 content">
-					<div class="screen">
-						<a href="https://corbettway.com/"target="_blank"><img src="img/web3.png"></a>
-					</div>
-
-	        	</div>
-
-				<div class="col-md-4 col-md-offset-4 content">
-					<div class="screen">
-						<a href="https://nationaltourandtravel.com/"target="_blank"><img src="img/web4.png"></a>
-					</div>
-
-	        	</div>
-
-				<div class="col-md-4 col-md-offset-4 content">
-					<div class="screen">
-						<a href="https://travelexpertise.in/"target="_blank"><img src="img/web5.png"></a>
-					</div>
-
-	        	</div>
-
-				<div class="col-md-4 col-md-offset-4 content">
-					<div class="screen">
-						<a href="https://diwakarshealthsolution.com/"target="_blank"><img src="img/web.png"></a>
-					</div>
-
-	        	</div>
-			</div>
-		</div>
-
-<div class="container">
-	<div class="col-md-12 heading-section text-center ftco-animate">
-			
-					<h2 class="mt-5 mb-3">Graphics Projects</h2>
-				
-				</div>
-			<div class="row">
-				
-				<div class="col-md-4">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"style="height:100%;">
-						<img src="img/11.png"style="height:100%;width:95%;padding:10px;">
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"style="height:100%;">
-						<img src="img/6.png"style="height:100%;width:95%;padding:10px;">
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"style="height:100%;">
-						<img src="img/5.png"style="height:100%;width:95%;padding:10px;">
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"style="height:100%;">
-						<img src="img/1.png"style="height:100%;width:95%;padding:10px;">
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"style="height:100%;">
-						<img src="img/13.png"style="height:100%;width:95%;padding:10px;">
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"style="height:100%;">
-						<img src="img/7.png"style="height:100%;width:95%;padding:10px;">
-					</div>
-				</div>
-				
-				
-			</div>
-			</div>
-		</div>
-	</section>
-
-
-
-<div class="row">
-    <div class="col-xl-12 col-l-12 col-md-12 s-12 sm-12"id="contactfile">
-    	<div class="row">
-    		<div class=" col-xl-12 col-l-12 col-md-12 s-12 sm-12"id="contacttextbox">
-    			<h2>Contact Us</h2>
-    		</div>
-    	</div>
-      <div class="container">
-    	<dizv class="row"id="contactbox">
-    		<div class=" col-xl-4 col-l-4 col-md-4 s-12 sm-12 d-none d-sm-block d-sm-none d-md-block"id="contactbox1">
-    			<div class="row">
-    				<div class="col-md-11 mx-4 rounded"id="map">
-    					<p style="color:#000000;font-size: 22px;"><strong style="color:#B48211;font-size: 22px;">Name:<br></strong>Md Vasim </p>
-						<p style="color:#000000;font-size: 22px;"><strong style="color:#B48211;font-size: 22px;">Phone No:<br></strong> +91 8766335383</p>
-						<p style="color:#000000;font-size: 22px;"><strong style="color:#B48211;font-size: 22px;">Email Id:<br></strong> mdvasimhyt2019@gmail.com</p>
-						<p style="color:#000000;font-size: 22px;"><strong style="color:#B48211;font-size: 22px;">Address:<br></strong> West Patel Nagar</p>
-    				</div>
-    			</div>
-    		</div>
-    		<div class=" col-xl-8 col-l-8 col-md-8 s-12 sm-12 "id="contactbox2">
-    		 <form name="a"onsubmit="valid()">
-    			<div class="row">
-    				<div class="col-xl-6 col-l-6 col-md-6 s-6 sm-6 mt-3 text-center "id="naambox">
-    					<input type="text"placeholder="Your Name"id="naam"class="rounded img-fluid"name="nam">
-    				</div>
-    			<div class="col-xl-6 col-l-6 col-md-6 s-6 sm-6 mt-3 text-center"id="emailbox"onkeyup="check()">
-    					<input type="text"placeholder="Your Email"id="email"class="rounded img-fluid"name="email">
-    				</div>
-    			</div>
-    		 <div class="row">
-    		     <div class="col-xl-6 col-l-6 col-md-6 s-6 sm-6 mt-3 text-center"id="nobox"class="rounded">
-    		     	<input type="text"placeholder="Mobile No."id="no"class="rounded img-fluid"name="no">
-    		     </div>
-    		     <div class="col-xl-6 col-l-6 col-md-6 s-6 sm-6 mt-3 text-center"id="orgbox"class="rounded">
-    		     	<input type="text"placeholder="Subject"id="org"class="rounded img-fluid"name="orgn">
-    		     </div>
-    	    </div>
-    	    <div class="row">
-    	    	<div class="col-xl-12 col-l-12 col-md-12 s-6 sm-6 mt-3 text-center"id="messbox">
-    	    		<textarea class="comment rounded img-fluid"placeholder="Type Your Message"id="mess"name="message"></textarea>
-    	    	</div>
-    	    </div>
-
-    	    <div class="row">
-    	    	<div class="col-md-12 s-12 sm-12 mt-3 text-center"id="sendbtn">
-    	    		<button type="submit"class="btn btn">Submit</button>
-    	    	</div>
-    	    </div>
-    	</form>
-    	  </div>
-    	</div>
+<!-- ===== ABOUT ===== -->
+<section id="about"><div class="wrap">
+  <div class="head"><span class="tag">&lt;about /&gt;</span><h2>About me</h2></div>
+  <div class="about-grid">
+    <div class="photo"><img src="img/img.png" alt="Md Vasim" width="360" height="410"></div>
+    <div>
+      <h3 class="nm">Md Vasim</h3>
+      <p>I have 03 years of experience in web development. I want to work in a professional organization where I can utilize my knowledge to the optimum level and where I have excellent opportunities for growth.</p>
+      <p>I am constantly staying up-to-date with the latest trends and techniques in design to provide even better design.</p>
+      <ul class="facts">
+        <li><small>Name</small>Md Vasim</li><li><small>Location</small>West Patel Nagar, Delhi</li>
+        <li><small>Email</small>mdvasimhyt2019@gmail.com</li><li><small>Phone</small>+91 8766335383</li>
+      </ul>
+      <a class="btn btn-t" href="img/Vasim.pdf" download><i class="fa fa-download"></i> Download CV</a>
     </div>
-<div class="container-fluid">
-	<div class="row">
-		<div clas="col-12"style="padding:20px;">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7002.522745577051!2d77.15866304246678!3d28.651891602616335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d02ee24b5db0b%3A0x5690e9873b2b05ad!2sWest%20Patel%20Nagar%2C%20Patel%20Nagar%2C%20Delhi%2C%20110008!5e0!3m2!1sen!2sin!4v1751302057879!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-	</div>
-</div>	
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center"id="de">
-				<p class="mt-2">Designed & Developed by : <a href="index.html">Vasim</a></p>
-			</div>
-		</div>
-	   </div>
-</div>
-</div>
+  </div>
+</div></section>
+
+<!-- ===== SKILLS: change % in data-w and in the label ===== -->
+<section class="alt" id="skills"><div class="wrap">
+  <div class="head"><span class="tag">&lt;skills /&gt;</span><h2>Skills</h2></div>
+  <div class="skill-grid">
+    <div class="sk"><div><span>HTML</span><span>90%</span></div><i data-w="90"></i></div>
+    <div class="sk"><div><span>jQuery</span><span>60%</span></div><i data-w="60"></i></div>
+    <div class="sk"><div><span>CSS</span><span>90%</span></div><i data-w="90"></i></div>
+    <div class="sk"><div><span>Bootstrap</span><span>90%</span></div><i data-w="90"></i></div>
+    <div class="sk"><div><span>JavaScript</span><span>60%</span></div><i data-w="60"></i></div>
+    <div class="sk"><div><span>Figma</span><span>90%</span></div><i data-w="90"></i></div>
+    <div class="sk"><div><span>WordPress</span><span>90%</span></div><i data-w="90"></i></div>
+    <div class="sk"><div><span>Canva</span><span>90%</span></div><i data-w="90"></i></div>
+  </div>
+</div></section>
+
+<!-- ===== SERVICES: copy one .svc block to add ===== -->
+<section id="services"><div class="wrap">
+  <div class="head"><span class="tag">&lt;services /&gt;</span><h2>What I do</h2></div>
+  <div class="grid3">
+    <div class="svc"><div class="ico"><i class="fa fa-code"></i></div><h4>Web Design</h4><p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience of website development.</p></div>
+    <div class="svc"><div class="ico"><i class="fa fa-file"></i></div><h4>UI UX Design</h4><p>UI is a place where interactions between humans and machines occur. UX is the experience that a person has they interact with a product.</p></div>
+    <div class="svc"><div class="ico"><i class="fa fa-tablet"></i></div><h4>Responsive Design</h4><p>Responsive web design is creating web pages that look good on all devices. A responsive web design will adjust for different screen sizes and viewports.</p></div>
+    <div class="svc"><div class="ico"><i class="fa fa-globe"></i></div><h4>Graphics Design</h4><p>Graphic design is disciplinary branch of design and of the fine arts. They focus on the logic of display elements in interactive designs to optimize the user experience.</p></div>
+    <div class="svc"><div class="ico"><i class="fa fa-mobile"></i></div><h4>App Design</h4><p>App design combines the user interface and user experience. While UI focus itself to the overall style of the app general look and feel. UX focus on the functional and usability.</p></div>
+    <div class="svc"><div class="ico"><i class="fa fa-magnet"></i></div><h4>Logo Design</h4><p>A logo is a symbol or design used to identify a company or organization. A logo generally involves symbols, stylized text or both.</p></div>
+  </div>
+</div></section>
+
+<!-- ===== EXPERIENCE & EDUCATION: SAMPLE TEXT - replace with your real details ===== -->
+<section class="alt" id="experience"><div class="wrap">
+  <div class="head"><span class="tag">&lt;experience /&gt;</span><h2>Experience &amp; Qualification</h2></div>
+  <div class="two">
+    <div class="tl">
+      <h4>Experience</h4>
+      <div><small>(15/07/23 - 20/01/26)</small><b>Frontend &amp; WordPress Developer</b><span>Company Name:- Travel 2 Expert</span><p>Work Here:- Website Design , Graphic Design</p></div>
+      <div><small>(10/02/26 - 01/09/26)</small><b>Frontend &amp; WordPress Developer</b><span>Company Name:- Yaraks</span><p>Work Here:- Website Design , Graphic Design</p></div>
+    </div>
+    <div class="tl">
+      <h4>Qualification</h4>
+      <div><small>2021 – 2024</small><b>Graduate</b><span>Sol Delhi University</span></div>
+      <div><small>2022 - 2023</small><b>Certification or Course</b><span>GWDD</span><p>Arena Animation , Patel Nagar</p></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- ===== WORK PROCESS ===== -->
+<section class="teal" id="process"><div class="wrap">
+  <div class="head"><span class="tag">&lt;process /&gt;</span><h2>How I work</h2></div>
+  <div class="steps">
+    <div><b>1</b><h4>Understand</h4><p>I learn your goal, audience and content before I design.</p></div>
+    <div><b>2</b><h4>Design</h4><p>I plan the layout and look in Figma or Canva.</p></div>
+    <div><b>3</b><h4>Develop</h4><p>I build a fast, responsive site with HTML, CSS, JavaScript or WordPress.</p></div>
+    <div><b>4</b><h4>Launch</h4><p>I test on all devices, fix issues and publish.</p></div>
+  </div>
+</div></section>
+
+<!-- ===== PROJECTS: change image names; edit titles / Live demo links (#) ===== -->
+<section id="projects-section"><div class="wrap">
+  <div class="head"><span class="tag">&lt;projects /&gt;</span><h2>My projects</h2><p>Hover over a website to scroll through it.</p></div>
+  <div class="tabs" id="tabs"><button class="on" data-f="all">All</button><button data-f="web">Websites</button><button data-f="gfx">Graphics</button></div>
+  <div class="grid3" id="items">
+    <div class="card" data-t="web"><div class="screen"><img src="img/web1.jpg" alt=""></div><div class="cap"><b>Website 1</b><a href="#">Live demo <i class="fa fa-external-link"></i></a></div></div>
+    <div class="card" data-t="web"><div class="screen"><img src="img/web2.png" alt=""></div><div class="cap"><b>Website 2</b><a href="#">Live demo <i class="fa fa-external-link"></i></a></div></div>
+    <div class="card" data-t="web"><div class="screen"><img src="img/web3.png" alt=""></div><div class="cap"><b>Website 3</b><a href="#">Live demo <i class="fa fa-external-link"></i></a></div></div>
+    <div class="card" data-t="web"><div class="screen"><img src="img/web4.jpeg" alt=""></div><div class="cap"><b>Website 4</b><a href="#">Live demo <i class="fa fa-external-link"></i></a></div></div>
+    <div class="card" data-t="web"><div class="screen"><img src="img/web5.png" alt=""></div><div class="cap"><b>Website 5</b><a href="#">Live demo <i class="fa fa-external-link"></i></a></div></div>
+    <div class="card" data-t="web"><div class="screen"><img src="img/web.png" alt=""></div><div class="cap"><b>Website 6</b><a href="#">Live demo <i class="fa fa-external-link"></i></a></div></div>
+    <div class="card gfx" data-t="gfx"><img src="img/11.png" alt="Graphic design 1"></div>
+    <div class="card gfx" data-t="gfx"><img src="img/6.png" alt="Graphic design 2"></div>
+    <div class="card gfx" data-t="gfx"><img src="img/5.png" alt="Graphic design 3"></div>
+    <div class="card gfx" data-t="gfx"><img src="img/1.png" alt="Graphic design 4"></div>
+    <div class="card gfx" data-t="gfx"><img src="img/13.png" alt="Graphic design 5"></div>
+    <div class="card gfx" data-t="gfx"><img src="img/7.png" alt="Graphic design 6"></div>
+  </div>
+</div></section>
+
+<!-- ===== CONTACT ===== -->
+<section class="alt" id="contact"><div class="wrap">
+  <div class="head"><span class="tag">&lt;contact /&gt;</span><h2>Let's work together</h2></div>
+  <div class="contact-grid">
+    <div class="info">
+      <div><i class="fa fa-user"></i><span><small>Name</small>Md Vasim</span></div>
+      <a href="tel:+918766335383"><i class="fa fa-phone"></i><span><small>Phone No</small>+91 8766335383</span></a>
+      <a href="mailto:mdvasimhyt2019@gmail.com"><i class="fa fa-envelope"></i><span><small>Email Id</small>mdvasimhyt2019@gmail.com</span></a>
+      <a href="#map"><i class="fa fa-map-marker"></i><span><small>Address</small>West Patel Nagar</span></a>
+    </div>
+    <form id="form" novalidate>
+      <div><label for="nam">Your Name</label><input id="nam" placeholder="Your Name"></div>
+      <div><label for="email">Your Email</label><input id="email" type="email" placeholder="Your Email"></div>
+      <div><label for="no">Mobile No.</label><input id="no" placeholder="Mobile No."></div>
+      <div><label for="sub">Subject</label><input id="sub" placeholder="Subject"></div>
+      <div class="full"><label for="msg">Message</label><textarea id="msg" placeholder="Type Your Message"></textarea></div>
+      <p class="err full" id="err" role="alert"></p>
+      <div class="full"><button class="btn btn-t" type="submit">Send message <i class="fa fa-paper-plane"></i></button></div>
+    </form>
+  </div>
+  <iframe id="map" title="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7002.522745577051!2d77.15866304246678!3d28.651891602616335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d02ee24b5db0b%3A0x5690e9873b2b05ad!2sWest%20Patel%20Nagar%2C%20Patel%20Nagar%2C%20Delhi%2C%20110008!5e0!3m2!1sen!2sin!4v1751302057879!5m2!1sen!2sin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div></section>
+
+<footer><div class="wrap"><span>Designed &amp; Developed by : <a href="index.html">Vasim</a></span>
+  <span class="social"><a href="https://www.instagram.com/mdvasim8766?igsh=N3JpdTM1NGhnbDRs" aria-label="Instagram"><i class="fa fa-instagram"></i></a><a href="https://www.facebook.com/share/18Fd155Fum/" aria-label="Facebook"><i class="fa fa-facebook"></i></a><a href="https://x.com/mdvasimhyt2019" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a><a href="https://www.linkedin.com/in/md-vasim-948194274" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></span>
+</div></footer>
+<a href="#home" class="top" id="top" aria-label="Back to top"><i class="fa fa-arrow-up"></i></a>
 
 <script>
-   function check(){
-  	var e=document.a.email.value;
-  	if(e.indexOf("@")==-1){
-  		alert("pls fill email proper!")
-  	}
-
-
-  }
-
-
-
-
-  function valid(){
-		var n=document.a.nam.value;
-		var e=document.a.email.value;
-		var mob=document.a.no.value;
-		var o=document.a.orgn.value;
-		var m=document.a.message.value;
-
-		if(n==""){
-			alert("Name is empty !");
-		}
-		if(e==""){
-			alert("Email is empty !");
-		}
-		if(mob==""){
-			alert("Mobile no. is empty !");
-		}
-		if(o==""){
-			alert("Subject is empty !");
-		}
-		else{
-  	        alert("Sent message..");
-        }
-
-
-  }
-
-	
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const nav=$('#nav'),menu=$('#menu'),top_=$('#top');
+addEventListener('scroll',()=>{nav.classList.toggle('scrolled',scrollY>55);top_.classList.toggle('show',scrollY>600)});
+$('#burger').onclick=()=>menu.classList.toggle('open');
+$$('#menu a').forEach(a=>a.onclick=()=>menu.classList.remove('open'));
+// skill bars fill on scroll
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.style.setProperty('--w',e.target.dataset.w+'%');io.unobserve(e.target)}}),{threshold:.5});
+$$('.sk i').forEach(i=>io.observe(i));
+// highlight current menu link
+const links=$$('#menu a:not(.btn)');
+const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-45% 0px -50% 0px'});
+['home','about','skills','services','experience','process','projects-section'].forEach(id=>so.observe(document.getElementById(id)));
+// project filter
+$$('#tabs button').forEach(b=>b.onclick=()=>{
+  $$('#tabs button').forEach(x=>x.classList.toggle('on',x===b));
+  $$('#items .card').forEach(c=>c.classList.toggle('hide',b.dataset.f!=='all'&&c.dataset.t!==b.dataset.f));
+});
+// contact form (opens the visitor's email app)
+$('#form').addEventListener('submit',e=>{
+  e.preventDefault();const v=id=>$('#'+id).value.trim(),err=$('#err');
+  if(!v('nam'))return err.textContent='Please enter your name.';
+  if(!/^\S+@\S+\.\S+$/.test(v('email')))return err.textContent='Please enter a valid email address.';
+  if(!v('no'))return err.textContent='Please enter your mobile number.';
+  if(!v('sub'))return err.textContent='Please enter a subject.';
+  err.textContent='';
+  const body=`Name: ${v('nam')}\nEmail: ${v('email')}\nMobile: ${v('no')}\n\n${v('msg')}`;
+  location.href=`mailto:mdvasimhyt2019@gmail.com?subject=${encodeURIComponent(v('sub'))}&body=${encodeURIComponent(body)}`;
+});
 </script>
-   <!----------aos data------------>
-   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-   <script>
-     AOS.init({
-      offset: 170,
-     });
-   </script>
-
-
-</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
